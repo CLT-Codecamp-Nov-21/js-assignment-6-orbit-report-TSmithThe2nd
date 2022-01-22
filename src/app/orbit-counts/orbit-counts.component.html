@@ -1,6 +1,9 @@
 <h3>Satellite Count:</h3>
 <div class="counts">
 	<div>
+		Total: <span class="counts-total">{{satellites.length}} </span>
+	</div>
+	<div>
 		Space Debris: <span class="counts-total">{{ countByType("Space Debris") }}</span>
 	</div>
 	<div>
@@ -19,7 +22,6 @@
 		Telescope: <span class="counts-total">{{ countByType("Telescope") }}</span>
 	</div>
 
-	<div>Total: <span class="counts-total">{{satellites.length}} </span></div>
 </div>
 
 <!-- TODO 4: add logic to count number of satellites displayed -->
